@@ -2,18 +2,26 @@ package homework5;
 
 public class HomeWork5 {
 
-    public static int findBiggest (int number1, int number2){
+    static void findBiggest (int number1, int number2){
+
         if (number1 > number2){
-            return number1;
-        }
-        return number2;
+            System.out.println(number1);
+        } else if (number1 < number2)
+            System.out.println(number2);
+        else
+            System.out.println("Equals");
+
     }
 
-    public static int findSmallest (int number1, int number2){
+    static void findSmallest (int number1, int number2){
+
         if (number1 < number2){
-            return number1;
-        }
-        return number2;
+            System.out.println(number1);
+        } else if (number1 > number2)
+            System.out.println(number2);
+        else
+            System.out.println("Equals");
+
     }
 
     public static void isOddOrEven(int number){
@@ -27,9 +35,9 @@ public class HomeWork5 {
 
     public static void main(String[] args) {
 
-        System.out.println(findBiggest(1, 3));
-        System.out.println(findSmallest(1, 3));
-        isOddOrEven(10);
+        findBiggest(10, 3);
+        findSmallest(20, 2);
+        isOddOrEven(23);
 
     }
 
