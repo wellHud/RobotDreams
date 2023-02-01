@@ -2,6 +2,18 @@ package homework6;
 
 public class HomeWork6 {
 
+    public static void main(String[] args) {
+
+        printNumbersFromXToY(1,10);
+
+        printEvenNumbersFromXToY(1, 100);
+
+        printFactorialOfNumber(7);
+
+        printFiboToNumber(100);
+
+    }
+
     public static void printNumbersFromXToY (int numberFrom, int numberTo){
 
         if (numberTo < numberFrom){
@@ -61,19 +73,6 @@ public class HomeWork6 {
             b = c;
             c = a + b;
         }
-
-    }
-
-
-    public static void main(String[] args) {
-
-        printNumbersFromXToY(1,10);
-
-        printEvenNumbersFromXToY(1, 100);
-
-        printFactorialOfNumber(7);
-
-        printFiboToNumber(100);
 
     }
 }
