@@ -13,8 +13,8 @@ public class Pilot extends Human implements Profession {
         this.age = age;
     }
 
-    void getProfession(){
-        System.out.println("My profession is " + profession);
+    void getInfo(){
+        System.out.println("My name is " + name + " and my age is " + age + ". My profession is " + profession);
     }
 
     @Override

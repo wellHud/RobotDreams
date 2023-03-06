@@ -5,12 +5,12 @@ public class Main {
         Driver driver = new Driver("Bob", 44);
         Pilot pilot = new Pilot("Max", 56);
 
-        driver.getProfession();
+        driver.getInfo();
         driver.startTheEngine();
         driver.control();
         driver.stopTheEngine();
 
-        pilot.getProfession();
+        pilot.getInfo();
         pilot.startTheEngine();
         pilot.control();
         pilot.stopTheEngine();
